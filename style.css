@@ -1,0 +1,21 @@
+:root {
+    --main-bg-color: #ffffff;
+    --main-txt-color: #000000;
+    --main-padding: 1em;
+    --main-margin: 1em;
+    --main-border: 1px;
+}
+
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+
+    background:var(--main-bg-color);
+    color: var(--main-txt-color);
+    border: var(--main-border);
+
+    /*Use this statements incase you want to use google-fonts (check the index.html)*/
+    font-family: '[YOUR_FONT_serif_FAMILY]', serif;
+    font-family: '[YOUR_FONT_sans-serif_FAMILY]', sans-serif;
+}
